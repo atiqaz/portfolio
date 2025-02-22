@@ -102,7 +102,7 @@ export default function SharedLayoutAnimation() {
 
 const container: React.CSSProperties = {
   width: "100%",
-  maxWidth: 600,
+  maxWidth: '100%',
   height: "auto",
   background: "#000",
   overflow: "hidden",
@@ -119,6 +119,7 @@ const nav: React.CSSProperties = {
   borderRadius: "10px",
   borderBottomLeftRadius: 0,
   borderBottomRightRadius: 0,
+  width:"100vw"
 };
 
 const tabsContainer: React.CSSProperties = {
