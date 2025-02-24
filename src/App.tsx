@@ -29,6 +29,7 @@ function App() {
           height: 3,
           originX: 0,
           backgroundColor: "#ff0088",
+          zIndex: 100,
         }}
       />
       <div className="main-body">
